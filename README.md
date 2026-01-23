@@ -7,6 +7,7 @@ A collection of container images built from source, automatically updated with n
 | Image | Description | Workflow |
 |-------|-------------|----------|
 | [mattermost](./images/mattermost/) | Alpine-based Mattermost server | [![Mattermost](https://github.com/firstdorsal/oci-images/actions/workflows/mattermost.yml/badge.svg)](https://github.com/firstdorsal/oci-images/actions/workflows/mattermost.yml) |
+| [mongodb](./images/mongodb/) | Bitnami-compatible MongoDB | [![MongoDB](https://github.com/firstdorsal/oci-images/actions/workflows/mongodb.yml/badge.svg)](https://github.com/firstdorsal/oci-images/actions/workflows/mongodb.yml) |
 
 ## Adding a New Image
 
