@@ -18,4 +18,6 @@ A collection of container images built from source, automatically updated with n
 
 ## License
 
-Each image may have its own licensing terms. See the individual image directories for details.
+This repository is licensed under the [GNU Affero General Public License v3.0](LICENSE).
+
+Note: Individual images may include software with their own licensing terms. See the image directories for details.
